@@ -1,0 +1,745 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header ul li {
+    font-size: 26px;
+    padding: 10px 30px
+}
+
+
+.login-btn {
+    border-radius: 12px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    padding: 13px 50px;
+    background-color: #204E51;
+}
+
+.signin-btn {
+    border-radius: 12px;
+    border: 2px  #204E51 solid;
+    font-size: 22px;
+    margin-top: 26px;
+    color:  #204E51;
+    margin-left: 30px;
+    padding: 13px 50px;
+    background-color: transparent;
+    
+}
+
+.showcase {
+    color: white;
+    background-size: 100% 540px;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXu5086Nqqb2ITrQS-OjGXs2zH4Sj5doB1oA&usqp=CAU");
+    height: 540px;
+    text-align: center;
+}
+
+.showcase h1 {
+    padding-top: 1.3em;
+    font-size: 5em;
+}
+
+.showcase p {
+    margin: 20px 20em;
+    padding-bottom: 1.2em;
+}
+
+#learn-btn {
+    color: white;
+    border: 2px white solid;
+}
+
+.about-parent {
+    margin: 10em 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-left, .about-right {
+    width: 500px;
+}
+
+.about-left h1 {
+    color: #204E51;
+    margin-bottom: 10px;
+    font-size: 4.3em;
+}
+
+.about-left p {
+    margin-bottom: 20px;
+}
+
+.about-right img {
+    width: 100%;
+    height: 600px;
+    border-radius: 28px;
+}
+
+.about-right {
+    position: relative;
+}
+
+.about-right button {
+background-color: white;
+color: #204E51;
+border-radius: 22px;
+font-size: 38px;
+font-weight: bold;
+border: none;
+padding: 40px 2em;
+position: absolute;
+bottom: -40px;
+left: 80px;
+box-shadow: 3px 9px 12px rgb(206, 198, 198);
+}
+
+
+.service {
+    padding: 3em 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 6px 6px rgb(206, 198, 198);
+}
+.service h1 {
+    margin-bottom: 20px;
+    color: #204E51;
+    font-size: 60px;
+}
+.box i {
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+.box-parent {
+    margin: 30px 2px;
+    gap: 3em;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+
+.product {
+    padding: 4em 2px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.product h1 {
+    font-size: 60px;
+    color: #204E51;
+    margin-bottom: 20px;
+}
+
+
+.product1 {
+    padding: 30px;
+    border-radius: 28px;
+    width:100%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgb(210, 203, 203);
+}
+
+.product1 img {
+    width: 200px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+}
+.product1 h2 {
+    color: #204E51;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.product-parent {
+    margin: 2em 0px;
+    gap: 30px;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+
+.farming-hero {
+    padding: 3em 5em;
+    color: white;
+    height: 400px;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    background-image: url("asset/download (2).jpg");
+    }
+
+    .farming-hero h1 {
+        margin-bottom: 20px;
+        font-size: 4em;
+    }
+
+
+.benefit-left, .benefit-right {
+    width: 520px;
+}
+.benefit-left h1 {
+    margin-bottom: 20px;
+    font-size: 5em;
+}
+
+.benefit-left p {
+    margin-bottom: 20px;
+}
+.benefit-right {
+    padding: 30px;
+    border-radius: 18px;
+    height: 500px;
+    background-color: #204E51;
+}
+
+.icon i {
+    font-size: 80px;
+    color: white;
+}
+
+.icon {
+    margin: 20px 2px;
+    gap: 50px;
+    display: flex;
+    color: white;
+}
+
+
+
+.benefit-parent {
+    justify-content: space-evenly;
+    display: flex;
+}
+[04:49, 05/11/2023] Fatima Rise Academy: Testim {
+    /* height: 500px; */
+    background-color: ghostwhite;
+    /* margin-top: 40px; */
+    /* text-align: center; */
+    
+    
+   
+}
+.Testim h1{
+    font-size: 50px;
+    color: rgba(32, 78, 81, 1);
+    text-align: center;
+    /* margin-left: -500px; */
+
+}
+.Testim p {
+    text-align: center;
+}
+
+.text-box {
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    /* margin-left: 180px; */
+    border-radius: 20px;
+    background-color: rgba(32, 78, 81, 1);
+    display: flex;
+    gap: 25px;
+    
+    
+}
+.text-box img {
+    width: 300px;
+    height: 300px;
+    /* margin-left: 20%; */
+    /* margin-top: 10%; */
+    border-radius: 20px;
+}
+.tst img {
+    width: 300px;
+    height: 200px;
+    margin-top: 28%;
+    margin-left: -150px;
+    
+}
+
+.tst h3{
+    font-size: 30px;
+    /* margin-top: 2px; */
+    /* margin-left: -80px; */
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.tst h6{
+    /* margin-left: -215px; */
+    /* margin-top: 20px; */
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    text-align: center;
+}
+.tst p{
+    /* margin-top: 20px; */
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.tst i {
+    color: yellow;
+    text-align: center;
+}
+
+.Our_Blog {
+    height: 850px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+    text-align: center;
+}
+.Our_Blog h1 {
+    color: rgba(32, 78, 81, 1);
+}
+.Our_Blog_box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.box6 {
+    width: 400px;
+    height: 726px;
+    background-color: white;
+}
+.box6 img{
+    width: 380px;
+    height: 400x;
+    margin-top: 10px;
+    border-radius: 22px;
+}
+
+.box6 h3{
+    margin-top: 25px;
+    color: rgba(32, 78, 81, 1);
+    font-size: 30px;
+}
+.box6  p {
+    margin-top: 25px;
+    color: rgba(30, 30, 30, 1);
+    font-size: 15px;
+}
+
+.box6 button{
+
+border-radius: 12px;
+border: none;
+
+color: rgba(32, 78, 81, 1);
+text-decoration: underline;
+background-color: transparent;
+margin-top: 20px;
+    }
+    .footer {
+        width: 1476px;
+        height: 586px;
+        background-color: rgba(32, 78, 81, 1);
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    .div1 {
+        margin-top: 10%;
+    }
+    .div1 h6{
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .div1 img {
+        margin-top: 25%;
+        
+    }
+    .div2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 45px;
+        margin-top: 10%;
+    }
+    
+    .Pages ul {
+        list-style: none;
+    }
+    .Pages ul li {
+        padding-top: 20px;
+        
+    }
+    .About ul{
+        list-style: none;
+    }
+    .About ul li{
+        padding-top: 20px;
+        
+    }
+    .box6 img{
+    width: 200px;
+    height: 200px;
+    }
+    .div1 i {
+        margin-top:  50px;
+    }
+[04:50, 05/11/2023] Fatima Rise Academy: Testim {
+    /* height: 500px; */
+    background-color: ghostwhite;
+    /* margin-top: 40px; */
+    /* text-align: center; */
+    
+    
+   
+}
+.Testim h1{
+    font-size: 50px;
+    color: rgba(32, 78, 81, 1);
+    text-align: center;
+    /* margin-left: -500px; */
+
+}
+.Testim p {
+    text-align: center;
+}
+
+.text-box {
+    gap: 30px;
+    padding: 20px;
+    border-radius: 22px;
+    background-color: #204E51;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 140px;
+    height: 280px;
+    
+    }
+
+.text-box img {
+    width: 250px;
+    height: 180px;
+    border-radius: 22px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.tst img {
+    width: 300px;
+    height: 200px;
+    margin-top: 28%;
+    margin-left: -150px;
+    
+}
+
+.tst h3{
+    font-size: 30px;
+    /* margin-top: 2px; */
+    /* margin-left: -80px; */
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.tst h6{
+    /* margin-left: -215px; */
+    /* margin-top: 20px; */
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    text-align: center;
+}
+.tst p{
+    /* margin-top: 20px; */
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.tst i {
+    color: yellow;
+    text-align: center;
+}
+
+.Our_Blog {
+    height: 850px;
+    background-color: ghostwhite;
+    margin-top: 40px;
+    text-align: center;
+}
+.Our_Blog h1 {
+    color: rgba(32, 78, 81, 1);
+}
+.Our_Blog_box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.box6 {
+    width: 400px;
+    height: 126px;
+    background-color: white;
+}
+.box6 img{
+    width: 380px;
+    height: 400x;
+    margin-top: 10px;
+    border-radius: 22px;
+}
+
+.box6 h3{
+    margin-top: 25px;
+    color: rgba(32, 78, 81, 1);
+    font-size: 30px;
+}
+.box6  p {
+    margin-top: 25px;
+    color: rgba(30, 30, 30, 1);
+    font-size: 15px;
+}
+
+.box6 button{
+
+border-radius: 12px;
+border: none;
+
+color: rgba(32, 78, 81, 1);
+text-decoration: underline;
+background-color: transparent;
+margin-top: 20px;
+    }
+    .footer {
+        width: 1476px;
+        height: 586px;
+        background-color:blue
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    .div1 {
+        margin-top: 10%;
+    }
+    .div1 h6{
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .div1 img {
+        margin-top: 25%;
+        
+    }
+    .div2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 45px;
+        margin-top: 10%;
+    }
+    
+    .Pages ul {
+        list-style: none;
+    }
+    .Pages ul li {
+        padding-top: 20px;
+        
+    }
+    .About ul{
+        list-style: none;
+    }
+    .About ul li{
+        padding-top: 20px;
+        
+    }
+    .box6 img{
+    width: 200px;
+    height: 200px;
+    }
+    .div1 i {
+        margin-top:  50px;
+    }
+    #menu{
+        font-size: 50px;
+        position: absolute;
+        right: 0px;
+        display: none;
+    }
+    @media screen and (max-width: 600px){
+        #menu-icon{
+            display: block;
+        }
+        #button{
+            display: none;
+        }
+        .header ul{
+            display: none;
+        }
+        .header h1 {
+            font-size: 22px;
+        }
+        .showcase h1{
+            font-size: 46px;
+        }
+        .showcase p{
+            margin: 12px;
+        }
+        .singin-btn{
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+        .about-parent{
+            flex-direction: column;
+        }
+        .about-left{
+            width: 350px;
+            margin: 20px;
+        }
+        .about-left h1{
+            font-size: 40px;
+        }
+        .about-right{
+            margin: 20px;
+            width: 350px;
+        }
+        .about-right button{
+            padding: 40px 2em;
+            font-size: 25px;
+            left: 2.5em;
+        }
+        .box-parent{
+            grid-template-columns: 300px;
+        }
+        .product h1{
+            font-size: 30px;
+        }
+    
+.product-parent{
+    margin-left: -60px;
+    grid-template-columns: 250px;
+}
+.farming-hero{
+    font-size: 5px;
+}
+#learn-btn{
+    margin-left: -3px;
+}
+.farming-hero{
+    padding: 20px;
+}
+.benefit-parent{
+    flex-direction: column;
+    row-gap: 70px;
+}
+.benefit-left{
+    margin: 20px;
+}
+.benefit-left{
+    width: 300px;
+}
+.benefit-left h1{
+    font-size: 38px;
+}
+.benefit-right{
+    width: 300px;
+    margin: 20px;
+
+}
+.Our_Blog h1{
+    text-align: center;
+
+}
+.Our_Blog p{
+    text-align: center;
+}
+.Our_Blog-box{
+    flex-direction: column;
+}
+.box6 {
+    width: 350px;
+    margin: 20px;
+}
+.box h3{
+    text-align: center;
+}
+.box6 p{
+    text-align: center;
+}
+.box6 button{
+    margin-left: 130px;
+}
+.box6 img{
+    width: 100%;
+}
+    }
+    @media screen and (min-width:600px) and (max-width:900px) {
+        body{
+            background-color: white;
+        }
+        #button {
+            display: none;
+        } 
+        .showcase h1{
+            font-size: 50px;
+        }
+        .showcase p{
+            margin: 20px;
+        }
+        .about-left, .about-right{
+            width: 100%;
+        }
+        .about-parent{
+            margin: 4em 30px;
+        }
+.about-left h1{
+    font-size: 40px;
+} 
+.about-right img{
+    height: 380px;
+}
+.about-right button{
+    font-size: 22px;
+}
+.box-parent{
+    grid-template-columns: 300px 300px;
+}
+.product p{
+padding: 30px;
+font-size: 22px;
+}
+.product-parent{
+grid-template-columns: 250px 250px;
+row-gap:40px;
+margin-left: -40px;
+
+}
+.product1{
+
+}
+.farming-hero h1{
+    font-size: 50px;
+}
+.benefit-left h1{
+    font-size: 50px;
+}
+.benefit-parent{
+    margin: 30px;
+}
+    }
+    
